@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import 'bootstrap';
 
 body {
   padding-top: 20px;
@@ -14,7 +14,7 @@ html {
 
 .label-fade {
   margin: 10px;
-  opacity: 0px;
+  opacity: 0;
   @include transition(all 0.5s);
   &.label-show {
     opacity: 1;
