@@ -12,3 +12,4 @@ export default Ember.Component.extend({
         Ember.run.later(() => this.set('isShowing', false), 3000);
     })
 });
+
