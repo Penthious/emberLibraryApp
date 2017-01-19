@@ -8,7 +8,7 @@ export default Ember.Component.extend({
 
     isShowing: false,
 
-    isShowingChanged: Ember.observer('isShowing', function() {
+    isShowingChanged: Ember.observer('isShowing', function () {
         Ember.run.later(() => this.set('isShowing', false), 3000);
     })
 });

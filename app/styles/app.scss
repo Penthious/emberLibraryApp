@@ -16,7 +16,7 @@ html {
   margin: 10px;
   opacity: 0px;
   @include transition(all 0.5s);
-  &.label-show{
+  &.label-show {
     opacity: 1;
   }
 }
